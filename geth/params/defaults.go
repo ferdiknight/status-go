@@ -33,7 +33,7 @@ const (
 
 	// APIModules is a list of modules to expose via HTTP and `CallRPC()` binding.
 	// We also expose all handlers registered with `rpc.Client.RegisterHandler` to `CallRPC()` binding.
-	APIModules = "eth,net,web3"
+	APIModules = "eth,net,web3,shh"
 
 	// SendTransactionMethodName defines the name for a giving transaction.
 	SendTransactionMethodName = "eth_sendTransaction"
